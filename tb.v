@@ -12,7 +12,7 @@ reg [11:0] dados_arquivo [0:3];
 
 calculadora_sincrona c(
     .clk(clk),
-    .rst(rst),
+    .reset(rst),
     .entrada(entrada),
     .codigo(codigo),
     .saida(saida)
